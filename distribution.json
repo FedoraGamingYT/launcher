@@ -1,10 +1,30 @@
 {
-  "version": "1.0.0",
-  "rss": "",
-  "discord": {
-    "clientId": "1169983220809486356",
-    "smallImageText": "FedClient",
-    "smallImageKey": ""
-  },
-  "servers": []
+    "version": "1.0.0",
+    "discord": {
+        "clientId": "1169983220809486356",
+        "smallImageText": "FedClient",
+        "smallImageKey": ""
+    },
+    "rss": "https://www.9minecraft.net/feed/",
+    "servers": [
+        {
+            "id": "Example_Server",
+            "name": "WesterosCraft Example Client",
+            "description": "Example WesterosCraft server. Connect for fun!",
+            "icon": "http://mc.westeroscraft.com/WesterosCraftLauncher/files/example_icon.png",
+            "version": "0.0.1",
+            "address": "mc.westeroscraft.com:1337",
+            "minecraftVersion": "1.11.2",
+            "discord": {
+                "shortId": "Example",
+                "largeImageText": "WesterosCraft Example Server",
+                "largeImageKey": "server-example"
+            },
+            "mainServer": true,
+            "autoconnect": true,
+            "modules": [
+                "Module Objects Here"
+            ]
+        }
+    ]
 }
